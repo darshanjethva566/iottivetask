@@ -14,7 +14,7 @@ class OrderDetailsService{
         'authToken':'f94d2624-d252-4cf0-8c59-ad8c3cbad3ab,
         'userId':1394
       });
-
+      //for dynamic
        // 'authToken':Constant.getStorage("token"),
        // 'userId':Constant.getStorage("uid"),
 
