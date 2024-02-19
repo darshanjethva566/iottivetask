@@ -87,7 +87,7 @@ class _OrderDetailsState extends State<OrderDetails> {
                     Consumer<OrderDetailsProvider>(builder: (context, value, child) {
                         return value.orders.isEmpty?Padding(
                           padding:  EdgeInsets.only(top: height*0.2),
-                          child: Constant.textWithPro("Loading...", 16, FontWeight.w500, Constant.black),
+                          child: Constant.textWithPro("No data found", 16, FontWeight.w500, Constant.black),
                         )
                             :ListView.builder(
                           physics: const NeverScrollableScrollPhysics(),itemCount: value.orders.length,shrinkWrap: true,itemBuilder: (context, index) {
